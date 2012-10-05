@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.devblocks.com/schema/plugin.xsd">
+	<id>wgm.va.lua</id>
+	<name>Lua scripting for Virtual Attendants</name>
+	<description>This plugin enables Lua scripting for Virtual Attendant conditions.</description>
+	<author>WebGroup Media, LLC.</author>
+	<version>0.0.1</version>
+	<link>http://www.cerberusweb.com/</link>
+	<!--<image>plugin.png</image>-->
+
+	<!-- Requirements -->
+
+	<requires>
+		<app_version min="6.1" max="6.1.99" />
+		<php_extension name="lua" />
+	</requires>
+
+	<!-- Plugin Dependencies -->
+	
+	<dependencies>
+		<require plugin_id="cerberusweb.core" version="6.1.0" />
+	</dependencies>
+
+	<!-- Extensions -->
+ 
+	<extensions>
+		<!-- Event Conditions -->
+		
+		<extension point="devblocks.event.condition">
+			<id>wgm.va.lua.condition</id>
+			<name>LUA Condition</name>
+			<class>
+				<file>api/App.php</file>
+				<name>WgmVaLua_EventCondition</name>
+			</class>
+			<params>
+				<param key="label" value="Run a Lua script" />
+				<param key="events">
+					<value>
+						<data key="*" />
+					</value>
+				</param>
+			</params>
+		</extension>
+
+	</extensions> 
+</plugin>
