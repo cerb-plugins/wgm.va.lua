@@ -4,14 +4,14 @@
 	<name>Lua scripting for Virtual Attendants</name>
 	<description>This plugin enables Lua scripting for Virtual Attendant conditions.</description>
 	<author>WebGroup Media, LLC.</author>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<link>http://www.cerberusweb.com/</link>
 	<!--<image>plugin.png</image>-->
 
 	<!-- Requirements -->
 
 	<requires>
-		<app_version min="6.1" max="6.1.99" />
+		<app_version min="6.2" max="6.2.99" />
 		<php_extension name="lua" />
 	</requires>
 
