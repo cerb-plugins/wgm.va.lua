@@ -3,7 +3,7 @@
 	<id>wgm.va.lua</id>
 	<name>Lua scripting for Virtual Attendants</name>
 	<description>This plugin enables Lua scripting for Virtual Attendant conditions.</description>
-	<author>WebGroup Media, LLC.</author>
+	<author>Webgroup Media, LLC.</author>
 	<version>0.0.3</version>
 	<link>http://www.cerberusweb.com/</link>
 	<!--<image>plugin.png</image>-->
