@@ -12,8 +12,6 @@ class WgmVaLua_EventCondition extends Extension_DevblocksEventCondition {
 		$tpl->display('devblocks:wgm.va.lua::config.tpl');
 	}
 	
-	
-	
 	function run($token, Model_TriggerEvent $trigger, $params, DevblocksDictionaryDelegate $dict) {
 		//var_dump($params['oper']);
 		//var_dump($params['value']);
@@ -22,6 +20,7 @@ class WgmVaLua_EventCondition extends Extension_DevblocksEventCondition {
 		
 		$values = array();
 		
+		// [TODO] Does this needs _labels and _types?
 		foreach($dict->getDictionary() as $k => $v) {
 			if(is_float($v)) {
 				$values[$k] = floatval($v);
