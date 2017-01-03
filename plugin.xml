@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.devblocks.com/schema/plugin.xsd">
 	<id>wgm.va.lua</id>
-	<name>Lua scripting for Virtual Attendants</name>
-	<description>This plugin enables Lua scripting for Virtual Attendant conditions.</description>
+	<name>Lua scripting for bots</name>
+	<description>This plugin enables Lua scripting for bot conditions.</description>
 	<author>Webgroup Media, LLC.</author>
 	<version>0.0.13</version>
 	<link>http://cerb.io/</link>
