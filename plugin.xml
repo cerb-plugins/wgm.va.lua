@@ -5,20 +5,20 @@
 	<description>This plugin enables Lua scripting for bot conditions.</description>
 	<author>Webgroup Media, LLC.</author>
 	<version>0.0.13</version>
-	<link>http://cerb.io/</link>
+	<link>http://cerb.ai/</link>
 	<!--<image>plugin.png</image>-->
 
 	<!-- Requirements -->
 
 	<requires>
-		<app_version min="6.4" max="7.3.99" />
+		<app_version min="7.3" max="7.3.99" />
 		<php_extension name="lua" />
 	</requires>
 
 	<!-- Plugin Dependencies -->
 	
 	<dependencies>
-		<require plugin_id="cerberusweb.core" version="6.4.0" />
+		<require plugin_id="cerberusweb.core" version="7.3.0" />
 	</dependencies>
 
 	<!-- Extensions -->
