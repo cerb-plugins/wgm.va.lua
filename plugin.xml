@@ -4,7 +4,7 @@
 	<name>Lua scripting for bots</name>
 	<description>This plugin enables Lua scripting for bot conditions.</description>
 	<author>Webgroup Media, LLC.</author>
-	<version>0.0.13</version>
+	<version>0.0.14</version>
 	<link>http://cerb.ai/</link>
 	<!--<image>plugin.png</image>-->
 
