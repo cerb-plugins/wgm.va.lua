@@ -3,7 +3,7 @@ class WgmVaLua_EventCondition extends Extension_DevblocksEventCondition {
 	const ID = 'wgm.va.lua.condition';
 	
 	function render(Extension_DevblocksEvent $event, Model_TriggerEvent $trigger, $params=array(), $seq=null) {
-		$tpl = DevblocksPlatform::getTemplateService();
+		$tpl = DevblocksPlatform::services()->template();
 		$tpl->assign('params', $params);
 		
 		if(!is_null($seq))
@@ -16,7 +16,7 @@ class WgmVaLua_EventCondition extends Extension_DevblocksEventCondition {
 		//var_dump($params['oper']);
 		//var_dump($params['value']);
 		
-		$tpl_builder = DevblocksPlatform::getTemplateService();
+		$tpl_builder = DevblocksPlatform::services()->template();
 		
 		$values = array();
 		
